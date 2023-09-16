@@ -1,0 +1,22 @@
+{
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Administrator",
+        "email": "admin@a360.com",
+        "userType": "admin",
+        "userName": "admin",
+        "password": "123"
+      },
+      {
+        "id": 2,
+        "name": "User",
+        "email": "user@a360.com",
+        "userType": "user",
+        "userName": "user",
+        "password": "abc"
+      }
+    ]
+  }
+}

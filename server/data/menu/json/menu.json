@@ -1,0 +1,79 @@
+{
+  "data": {
+    "menus": [
+      {
+        "date": "13/09/2023",
+        "items": [
+          {
+            "id": "7f6bf7f8-4c2a-422f-a09e-ff893e9ad030",
+            "name": "Char grilled Moroccan Paneer Thali",
+            "category": "vegetarian",
+            "vendor": "FreshMenu",
+            "description": ""
+          },
+          {
+            "id": "f7ef8d14-a1ff-493f-81d3-fb90079dba12",
+            "name": "Stir fried Paneer Quinoa Bowl",
+            "category": "vegetarian",
+            "vendor": "FreshMenu",
+            "description": ""
+          },
+          {
+            "id": "05e88474-edcd-4486-82d1-e46e505b12da",
+            "name": "Philly Style Pulled Chicken Thali",
+            "category": "non-vegetarian",
+            "vendor": "FreshMenu",
+            "description": ""
+          },
+          {
+            "id": "ea1d153d-9536-4dd0-8f51-966d95d1f829",
+            "name": "Asian Hot Chicken Quinoa Bowl",
+            "category": "non-vegetarian",
+            "vendor": "FreshMenu",
+            "description": ""
+          },
+          {
+            "id": "ddcf7dc5-559a-4281-bf8f-3ac1cd67793d",
+            "name": "Irish Apple Cake",
+            "category": "dessert",
+            "vendor": "FreshMenu",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "date": "18/09/2023",
+        "items": [
+          {
+            "id": "c1a2d2c5-28a3-4a4d-b57d-ea74acc821e4",
+            "name": "Sardarji's Spl Veg Thali",
+            "category": "vegetarian",
+            "vendor": "Sardarji Londonwaley",
+            "description": ""
+          },
+          {
+            "id": "3dfc642b-1015-462c-acdd-ff2ac01af657",
+            "name": "Chur Chur Naan Combo",
+            "category": "vegetarian",
+            "vendor": "Sardarji Londonwaley",
+            "description": ""
+          },
+          {
+            "id": "ff8a78fd-67dc-40a5-b7c2-2874927d9159",
+            "name": "Amritsari Kulcha Combo",
+            "category": "vegetarian",
+            "vendor": "Sardarji Londonwaley",
+            "description": ""
+          },
+          {
+            "id": "83f8a06c-cd92-4a6c-8663-32c89edd5437",
+            "name": "Gulab Jamun",
+            "category": "dessert",
+            "vendor": "Sardarji Londonwaley",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}
