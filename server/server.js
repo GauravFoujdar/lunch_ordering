@@ -59,9 +59,20 @@ server.get('/api/orders', (req, res, _next) => {
 })
 
 server.post('/api/orders', (req, res, _next) => {
-    const order = req.body.order;
+  const order = req.body.order;
+  order.id = createGuid();
     ordersData.orders.data.orders.push(order);
     res.status(200).send({...order});
+})
+
+server.put('/api/orders', (req, res, _next) => {
+  const order = req.body.order; 
+
+  const orders = ordersData.orders.data.orders.filter(o => o?.id !== order.id);
+  ordersData.orders.data.orders = orders;
+
+  ordersData.orders.data.orders.push(order);
+  res.status(200).send({...order});
 })
 
 server.listen(3000, () => {
